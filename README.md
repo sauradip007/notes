@@ -14,6 +14,11 @@ Extra workflows that can be added to a GitHub repo.
 - `node-ci`: CI to run the `lint` and `build` scripts on a PR.
 - `stale`: Labeller to flag stale issues/PRs.
 
+## Git Commands
+
+Helpful commands for the `git` CLI.
+- `git-update-fork`: Forces a local repository to match the `master` branch of the original repository. Avoids endless "update" commits.
+
 ## Live Version
 
 This page is not yet deployed.
