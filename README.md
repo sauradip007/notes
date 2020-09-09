@@ -19,6 +19,14 @@ Extra workflows that can be added to a GitHub repo.
 Helpful commands for the `git` CLI.
 - `git-update-fork`: Forces a local repository to match the `master` branch of the original repository. Avoids endless "update" commits.
 
+## Funny Codes
+
+Some funny or nonsensical scripts I have written. 
+
+### Hello World
+
+I was challenged to write an absurdly long program that prints "Hello World" to the console.
+
 ## Live Version
 
 This page is not yet deployed.
