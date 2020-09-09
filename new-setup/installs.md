@@ -18,3 +18,9 @@ Python
 `npm install -g angular-cli` - Install Angular globally
 `git config --global user.name <username>` - Set GitHub username
 `git config --global user.email <email>` - Set GitHub email
+
+## Other notes
+
+- Run `mongo.exe` from Community Server folder to create DB instance and get localhost URI
+- Add that URI *and* the Atlas URI to the MongoDB Compass
+- Python *might* require manual path configuration :(
