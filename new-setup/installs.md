@@ -11,6 +11,8 @@ MongoDB Compass
 MongoDB Community Server
 node.js CLI
 Python
+GitHub CLI
+yarn
 
 ## Scripts
 
@@ -24,3 +26,5 @@ Python
 - Run `mongo.exe` from Community Server folder to create DB instance and get localhost URI
 - Add that URI *and* the Atlas URI to the MongoDB Compass
 - Python *might* require manual path configuration :(
+- Configure git ssh - set VSCode terminal *and* git bash to run agent automatically.
+- yarn will require restart, possible manual path config.
