@@ -128,6 +128,6 @@ function createOrUpdate(label) {
     name: "notice: assigned",
     description:
       "This issue has been assigned to a contributor - please find another issue to work on",
-    color: "00ffcc",
+    color: "0052cc",
   },
 ].forEach((label) => createOrUpdate(label));
