@@ -124,4 +124,10 @@ function createOrUpdate(label) {
     description: "The scope of this issue is unknown",
     color: "d4c5f9",
   },
+  {
+    name: "notice: assigned",
+    description:
+      "This issue has been assigned to a contributor - please find another issue to work on",
+    color: "00ffcc",
+  },
 ].forEach((label) => createOrUpdate(label));
