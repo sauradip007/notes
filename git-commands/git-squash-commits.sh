@@ -1,0 +1,9 @@
+# get the CURRENT state of upstream
+git fetch upstream
+# switch to branch you made PR from
+git checkout <PR branch> 
+# rebase with interactive editor
+# NOTE - top commit should be `pick`, rest should be `squash`
+git rebase -i upstream/master
+# force the new single commit to the remote PR branch
+git push origin <PR branch> -f
