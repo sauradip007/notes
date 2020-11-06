@@ -11,5 +11,4 @@ updates:
     schedule:
       interval: "daily"
     labels:
-      - "type: dependencies"
-      - "status: needs review"
+      - "🚦 status: awaiting triage"
