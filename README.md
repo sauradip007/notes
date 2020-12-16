@@ -5,23 +5,6 @@
 
 Some bits of code that I need on occasion, saved here for ease of access.
 
-## Transfer-GitHub-Labels
-
-Browser-run code to export the labels on a GitHub repo, download them, and import them into another repo.
-
-## Optional Workflows
-
-Extra workflows that can be added to a GitHub repo.
-- `dependabot`: Configuration for Dependabot to update `npm` packages.
-- `merge-conflit`: Labeller for pull requests with merge conflicts.
-- `node-ci`: CI to run the `lint` and `build` scripts on a PR.
-- `stale`: Labeller to flag stale issues/PRs.
-
-## Git Commands
-
-Helpful commands for the `git` CLI.
-- `git-update-fork`: Forces a local repository to match the `master` branch of the original repository. Avoids endless "update" commits.
-
 ## Funny Codes
 
 Some funny or nonsensical scripts I have written. 
@@ -30,10 +13,32 @@ Some funny or nonsensical scripts I have written.
 
 I was challenged to write an absurdly long program that prints "Hello World" to the console.
 
-## Live Version
+## Git Commands
 
-This page is not yet deployed.
-<!--This page is currently deployed. [View the live website.]()-->
+Helpful commands for the `git` CLI.
+- `git-update-fork`: Forces a local repository to match the `main` branch of the original repository. Avoids endless "update" commits.
+- `git-squash-commits`: Rebases a branch against `main`, optionally squashes the commits into one.
+
+## Node TS Config
+
+Tooling files specifically for Node/TypeScript projects. Covers ESLint, Husky, and Prettier.
+
+## Notes
+
+Various random notes I need.
+
+## Optional Workflows
+
+Extra workflows that can be added to a GitHub repo.
+- `codeql-typescript-node.yml`: Code Quality analysis for Node/TypeScript projects.
+- `dependabot`: Configuration for Dependabot to update `npm` packages.
+- `merge-conflit`: Labeller for pull requests with merge conflicts.
+- `node-ci`: CI to run the `lint` and `build` scripts on a PR.
+- `stale`: Labeller to flag stale issues/PRs.
+
+## Transfer-GitHub-Labels
+
+Browser-run code to export the labels on a GitHub repo, download them, and import them into another repo.
 
 ## Feedback and Bugs
 
