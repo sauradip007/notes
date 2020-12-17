@@ -87,4 +87,4 @@ The full license terms may be viewed in the [LICENSE.md file](./LICENSE.md)
 
 ## Contact
 
-I may be contacted through my [Discord Server](http://chat.nhcarrigan.com) or via [email form](https://contact.nhcarrigan.com).
+We may be contacted through our [Discord Server](http://chat.nhcarrigan.com) or via [email form](https://contact.nhcarrigan.com).
