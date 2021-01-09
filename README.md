@@ -54,7 +54,7 @@ Before interacting with our community, please read our [Code of Conduct](CODE_OF
 
 ## Questions
 
-If you have questions regarding contributing, using the project, or any related topic, you can reach us at our [Discord Server](http://chat.nhcarrigan.com) where we would be happy to help!
+If you have questions regarding contributing, using the project, or any related topic, you can reach us at our [Chat Server](http://chat.nhcarrigan.com) where we would be happy to help!
 
 ## Contributors ✨
 
@@ -87,4 +87,4 @@ The full license terms may be viewed in the [LICENSE.md file](./LICENSE.md)
 
 ## Contact
 
-We may be contacted through our [Discord Server](http://chat.nhcarrigan.com) or via [email form](https://contact.nhcarrigan.com).
+We may be contacted through our [Chat Server](http://chat.nhcarrigan.com) or via [email form](https://contact.nhcarrigan.com).
