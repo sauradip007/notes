@@ -11,6 +11,8 @@ Make some notes of the commands :D
 - `screen` - opens the program screen (run node from here or it dies when you exit ssh)
 - `screen -d -r` - detach and resume the screen (use this to access that node process again after killing ssh)
 - `ctrl`+`a`+`d` - exit screen view and return to root terminal
+- `screen -ls` - list current screens (from root)
+- `screen -X -S [number] quit` - kill one of those screens
 
 ## SCP
 
