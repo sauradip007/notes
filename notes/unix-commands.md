@@ -20,12 +20,19 @@ Make some notes of the commands :D
 - `scp root@[ip]:[path] [local path]` - copy a file from remote to local.
 - `scp [local path] root@[ip]:[path]` - copy a file from local to remote.
 
-## File Editing
+## File System
+
+### Navigation 
 
 - `cd [path]` - Change directory. Can use relative or absolute path.
+- `ls` - lists files
+- `ls -lah` - lists `a`ll files (including dotfiles) in `l`ong format (with date edited and sizes) and `h`uman readable. Optionally sort by `t`ime.
+
+### Editing
+
 - `mkdir [name]` - Create folder.
 - `touch []` - Create file.
 - `[command] > [file]` - print results of command to file.
 - `nano [file]` - opens text editor to write to file. Shortcuts listed on screen. Exit shortcut will prompt for save!
-- `ls` - lists files
-- `ls -lah` - lists `a`ll files (including dotfiles) in `l`ong format (with date edited and sizes) and `h`uman readable. Optionally sort by `t`ime.
+- `rm [file]` - delete file
+- `rm -rf [directory]` - delete folder
