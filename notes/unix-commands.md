@@ -25,4 +25,5 @@ Make some notes of the commands :D
 - `touch []` - Create file.
 - `[command] > [file]` - print results of command to file.
 - `nano [file]` - opens text editor to write to file. Shortcuts listed on screen. Exit shortcut will prompt for save!
-
+- `ls` - lists files
+- `ls -lah` - lists `a`ll files (including dotfiles) in `l`ong format (with date edited and sizes) and `h`uman readable. Optionally sort by `t`ime.
