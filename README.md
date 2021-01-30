@@ -16,6 +16,7 @@ I was challenged to write an absurdly long program that prints "Hello World" to 
 ## Git Commands
 
 Helpful commands for the `git` CLI.
+- `git-clean-branches`: Helpful script for cleaning up ALL branches except `main`.
 - `git-update-fork`: Forces a local repository to match the `main` branch of the original repository. Avoids endless "update" commits.
 - `git-squash-commits`: Rebases a branch against `main`, optionally squashes the commits into one.
 

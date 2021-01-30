@@ -13,6 +13,7 @@ node.js CLI
 Python
 GitHub CLI
 yarn
+rust
 
 ## Scripts
 
