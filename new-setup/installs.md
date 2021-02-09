@@ -4,16 +4,15 @@ List of things to install/configure for a new environment
 
 ## Installs
 
-VSCode
-`git` bash for Windows
-Heroku CLI
-MongoDB Compass
-MongoDB Community Server
-node.js CLI
-Python
-GitHub CLI
-yarn
-rust
+- VSCode
+- `git` bash for Windows
+- Heroku CLI
+- MongoDB Compass
+- MongoDB Community Server
+- node.js CLI
+- Python
+- GitHub CLI
+- rust
 
 ## Scripts
 
@@ -21,6 +20,12 @@ rust
 `npm install -g angular-cli` - Install Angular globally
 `git config --global user.name <username>` - Set GitHub username
 `git config --global user.email <email>` - Set GitHub email
+
+## Generate new SSH + GPG keys
+
+Generate the keys. DigitalOcean and GitHub both need the SSH, only GitHub needs the GPG.
+
+`git config --global commit.gpgsign true` - Autosign commits
 
 ## Other notes
 

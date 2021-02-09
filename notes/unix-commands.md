@@ -9,7 +9,7 @@ Make some notes of the commands :D
 ## Screen
 
 - `screen` - opens the program screen (run node from here or it dies when you exit ssh)
-- `screen -d -r` - detach and resume the screen (use this to access that node process again after killing ssh)
+- `screen -d -r [number]` - detach and resume the screen (use this to access that node process again after killing ssh)
 - `ctrl`+`a`+`d` - exit screen view and return to root terminal
 - `screen -ls` - list current screens (from root)
 - `screen -X -S [number] quit` - kill one of those screens
@@ -31,8 +31,10 @@ Make some notes of the commands :D
 ### Editing
 
 - `mkdir [name]` - Create folder.
-- `touch []` - Create file.
+- `touch [name]` - Create file.
 - `[command] > [file]` - print results of command to file.
 - `nano [file]` - opens text editor to write to file. Shortcuts listed on screen. Exit shortcut will prompt for save!
 - `rm [file]` - delete file
 - `rm -rf [directory]` - delete folder
+- `cp [old path] [new path]` - copy file from old path to new path. Need to move folder? Use `-r` flag.
+- `mv [old path] [new path]` - move file/folder from old path to new path
