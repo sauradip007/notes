@@ -38,3 +38,8 @@ Make some notes of the commands :D
 - `rm -rf [directory]` - delete folder
 - `cp [old path] [new path]` - copy file from old path to new path. Need to move folder? Use `-r` flag.
 - `mv [old path] [new path]` - move file/folder from old path to new path
+
+## Other
+
+- `ps aux` - `ps` lists all of the processes, the `aux` flag makes a readable format. When a node process gets "stuck", use this to list them.
+- `kill <pid>` - Kill the process with the `PID` from the above command.
