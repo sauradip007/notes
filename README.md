@@ -39,6 +39,19 @@ Extra workflows that can be added to a GitHub repo.
 
 Browser-run code to export the labels on a GitHub repo, download them, and import them into another repo.
 
+Scripts:
+
+- `clean`: This will remove all of the existing labels on the repository. GitHub will prompt for confirmation, so you'll have to click through all of those. 
+- `export`: This will grab the data for your existing labels and store it in a `.json` file. Useful if you want to copy labels to a new repository.
+- `import`: This will load the `default-labels.json` labels into your repository. Run this in your browser console when you're viewing the labels page. You can add addtional labels to the end of the array (where commented).
+
+Data:
+
+- `default-labels.json`: This is the list of Creative Commons labels used by default in my repositories.
+- `skill-label-template.json`: This is a sample object for creating the `skill` labels. Replace `skillname` with the appropriate skill (i.e. TypeScript)
+- `hacktoberfest.json`: This holds the two Hacktoberfest-related labels.
+- `misc.json`: This is a sample object for creating miscellaneous, project-specific labels. Each label should have a relevant emoji, a category, and a name.
+
 ## Feedback and Bugs
 
 If you have feedback or a bug report, please feel free to open a GitHub issue!

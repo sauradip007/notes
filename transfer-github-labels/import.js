@@ -44,6 +44,7 @@ function createOrUpdate(label) {
   }
 }
 [
+  // Default labels are here ↓
   {
     name: "🟥 priority: critical",
     description: "Must be fixed ASAP",
@@ -164,4 +165,5 @@ function createOrUpdate(label) {
     description: "Restricted to project staff members",
     color: "7f0799",
   },
+  // Additional labels can go here
 ].forEach((label) => createOrUpdate(label));

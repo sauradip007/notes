@@ -1,0 +1,12 @@
+[
+  {
+    "name": "invalid",
+    "description": "Inappropriate or invalid for Hacktoberfest contributions",
+    "color": "eeeeee"
+  },
+  {
+    "name": "Hacktoberfest",
+    "description": "Good issues for Hacktoberfest participants",
+    "color": "883255"
+  }
+]
