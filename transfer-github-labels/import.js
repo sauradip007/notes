@@ -65,6 +65,11 @@ function createOrUpdate(label) {
     color: "cfda2c",
   },
   {
+    name: "🟪 priority: none",
+    description: "No priority, should only be performed when a developer is available",
+    color: "008672"
+  },
+  {
     name: "🏁 status: ready for dev",
     description: "Ready for work",
     color: "cccccc",
@@ -78,6 +83,16 @@ function createOrUpdate(label) {
     name: "🧹 status: ticket work required",
     description: "Needs more details before it can be worked on",
     color: "666666",
+  },
+  {
+    name: "🏷 status: label work required",
+    description: "Needs proper labelling before it can be worked on",
+    color: "666666"
+  },
+  {
+    name: "🙅 status: discontinued",
+    description: "Not suitable for work as repo is in maintenance",
+    color: "eeeeee"
   },
   {
     name: "⛔️ status: discarded",
