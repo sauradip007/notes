@@ -1,0 +1,26 @@
+{
+  "name": "code-snippets",
+  "version": "1.0.0",
+  "description": "Useful code snippets",
+  "main": "index.js",
+  "scripts": {
+    "start": "docsify serve ./docs -o --port 3200"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhcarrigan/code-snippets.git"
+  },
+  "keywords": [
+    "docsify",
+    "documentation"
+  ],
+  "author": "Nicholas Carrigan",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/nhcarrigan/code-snippets/issues"
+  },
+  "homepage": "https://github.com/nhcarrigan/code-snippets#readme",
+  "dependencies": {
+    "docsify-cli": "^4.4.2"
+  }
+}
