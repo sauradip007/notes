@@ -22,7 +22,7 @@ These are the more common commands I use when working with Ubuntu.
 
 ## File System
 
-### Navigation 
+### Navigation
 
 - `cd [path]` - Change directory. Can use relative or absolute path.
 - `ls` - lists files

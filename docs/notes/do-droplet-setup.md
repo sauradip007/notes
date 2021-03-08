@@ -77,5 +77,3 @@ Screen is now opened! Keep screen list clean by ending unneeded ones:
 ```bash
 screen -X -S [number] quit
 ```
-
-
