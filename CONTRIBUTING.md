@@ -15,7 +15,8 @@ Then you should follow these steps:
 ... (View changes locally)
 ```
 
-When adding a new file (**Markdown only**) please remember to also add the new nav link [here](https://github.com/nhcarrigan/code-snippets/blob/main/docs/_navbar.md).
+When adding a new file (**Markdown only**) please remember to also add the new nav link both [in the navigation bar](https://github.com/nhcarrigan/code-snippets/blob/main/docs/_navbar.md) and in the section's `index.md`.
+
 
 ## Claiming an Issue
 
