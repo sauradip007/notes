@@ -19,3 +19,9 @@ A quick example of how to use `diff` to create highlighted text for things like 
 A list of the commands I most commonly use in WSL.
 
 [View Notes](notes/unix-commands.md)
+
+## LetsEncrypt
+
+A brief instruction on setting up a LetsEncrypt certificate to gain HTTPS access on a node.js application.
+
+[View Notes](notes/lets-encrypt.md)

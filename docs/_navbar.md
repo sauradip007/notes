@@ -1,4 +1,7 @@
-- <u>Useful Information for Everyone</u>
+# nhcarrigan's notes
+
+## Useful Information for Everyone
+
 - [Home](/index.md)
 - [`git` Commands](/git-commands/index.md)
   - [Clean Branches](/git-commands/clean-branches.md)
@@ -9,6 +12,7 @@
   - [DigitalOcean Droplet](/notes/do-droplet-setup.md)
   - [GitHub Markdown Notices](/notes/github-markdown-notices.md)
   - [UNIX commands](/notes/unix-commands.md)
+  - [LetsEncrypt](/notes/lets-encrypt.md)
 - [GitHub Workflows](/github-workflows/index.md)
   - [Dependabot Config](/github-workflows/dependabot-config.md)
   - [CodeQL Scanning (TypeScript/Node)](/github-workflows/codeql-ts-node.md)
@@ -35,21 +39,23 @@
   - [Husky Configuration](/node-ts-config/husky.md)
   - [Git Ignore](/node-ts-config/gitignore.md)
 
-<hr>
+---
 
-- <u>Useful Information for nhcarrigan</u>
+## Useful Information for nhcarrigan
+
 - [New System Setup](/new-setup/index.md)
   - [Installations](/new-setup/installs.md)
   - [SSH Agent](/new-setup/ssh.md)
   - [Windows Terminal](/new-setup/terminal.md)
 
-<hr>
+---
 
-- <u>Other Stuff</u>
+## Other Stuff
+
 - [Funny Codes](/funny-codes/index.md)
   - [Hello World](/funny-codes/hello-world.md)
 
-<hr>
+---
 
 - [Visit My Homepage](https://www.nhcarrigan.com)
 - [Join My Chat Server](http://chat.nhcarrigan.com)
