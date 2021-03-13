@@ -83,7 +83,7 @@ Now configure your application:
   };
 
   const httpServer = http.createServer(app);
-  const httpsServer = https.createServer(app);
+  const httpsServer = https.createServer(credentials, app);
 
   httpServer.listen(80, () => {
     console.log("http server listening on port 80");
