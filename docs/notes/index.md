@@ -25,3 +25,9 @@ A list of the commands I most commonly use in WSL.
 A brief instruction on setting up a LetsEncrypt certificate to gain HTTPS access on a node.js application.
 
 [View Notes](notes/lets-encrypt.md)
+
+## Winston
+
+The standard configuration I use for the `npm` package `winston`, a helpful logging tool.
+
+[View Notes](notes/winston.md)
