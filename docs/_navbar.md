@@ -1,5 +1,7 @@
 # nhcarrigan's notes
 
+_Version 1.2.0_
+
 ## Useful Information for Everyone
 
 - [Home](/index.md)
