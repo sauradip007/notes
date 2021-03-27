@@ -63,35 +63,38 @@ Now configure your application:
     res.send("hi");
   });
 
-  const privateKey = await readFile(
-    "/etc/letsencrypt/live/example.com/privkey.pem",
-    "utf8"
-  );
-  const certificate = await readFile(
-    "/etc/letsencrypt/live/example.com/cert.pem",
-    "utf8"
-  );
-  const ca = await readFile(
-    "/etc/letsencrypt/live/example.com/chain.pem",
-    "utf8"
-  );
-
-  const credentials = {
-    key: privateKey,
-    cert: certificate,
-    ca: ca,
-  };
-
   const httpServer = http.createServer(app);
-  const httpsServer = https.createServer(credentials, app);
 
   httpServer.listen(80, () => {
-    console.log("http server listening on port 80");
+    logHandler.log("http", "http server listening on port 80");
   });
 
-  httpsServer.listen(443, () => {
-    console.log("https server listening on port 443");
-  });
+  if (process.env.NODE_ENV === "production") {
+    const privateKey = await readFile(
+      "/etc/letsencrypt/live/example.com/privkey.pem",
+      "utf8"
+    );
+    const certificate = await readFile(
+      "/etc/letsencrypt/live/example.com/cert.pem",
+      "utf8"
+    );
+    const ca = await readFile(
+      "/etc/letsencrypt/live/example.com/chain.pem",
+      "utf8"
+    );
+
+    const credentials = {
+      key: privateKey,
+      cert: certificate,
+      ca: ca,
+    };
+
+    const httpsServer = https.createServer(credentials, app);
+
+    httpsServer.listen(443, () => {
+      logHandler.log("http", "https server listening on port 443");
+    });
+  }
 })();
 ```
 

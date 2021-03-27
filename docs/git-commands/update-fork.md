@@ -11,9 +11,20 @@ Instead, use this script to get your fork up to date cleanly.
 ```bash
 git checkout main
 git fetch upstream
+git merge upstream/main
+git push
+```
+
+If you have done anything like make commits to your local branch, or muddied the `git` history for your local `main`, you will likely get errors here as it won't be a clean merge. If that happens, or if you need to reset history for another reason, use this script:
+
+```bash
+git checkout main
+git fetch upstream
 git reset --hard upstream/main
 git push --force
 ```
+
+The `--force` flag will forcibly overwrite your forked repo with the history you have locally (which now matches the original upstream repo.)
 
 > [!TIP]
 > If the default branch is something other than `main`, replace `main` in these commands with the correct default branch name.
