@@ -21,6 +21,7 @@
   - [Node CI (TypeScript)](/github-workflows/node-ci-ts.md)
   - [Angular GH Pages](/github-workflows/angular-deploy.md)
   - [External Integrations](/github-workflows/external.md)
+  - [Branch Protections](/github-workflows/branch-protect.md)
 - [GitHub Reply Templates](/github-reply-templates/index.md)
   - [Good First Issue](/github-reply-templates/good-first-issue.md)
   - [Open For Contributons](/github-reply-templates/open-for-contribs.md)
