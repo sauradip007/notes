@@ -31,3 +31,9 @@ A brief instruction on setting up a LetsEncrypt certificate to gain HTTPS access
 The standard configuration I use for the `npm` package `winston`, a helpful logging tool.
 
 [View Notes](notes/winston.md)
+
+## Sentry
+
+The standard configuration for the Sentry.io logging service, for either a Node.js and TypeScript project, or for an Angular app.
+
+[View Notes](notes/sentry.md)

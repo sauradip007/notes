@@ -14,6 +14,7 @@
   - [UNIX commands](/notes/unix-commands.md)
   - [LetsEncrypt](/notes/lets-encrypt.md)
   - [Winston](/notes/winston.md)
+  - [Sentry](/notes/sentry.md)
 - [GitHub Workflows](/github-workflows/index.md)
   - [Dependabot Config](/github-workflows/dependabot-config.md)
   - [CodeQL Scanning (TypeScript/Node)](/github-workflows/codeql-ts-node.md)
