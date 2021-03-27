@@ -25,3 +25,9 @@ A Continuous Integration workflow for TypeScript-based Node.js applications.
 This workflow will deploy an Angular project to GitHub Pages using the `angular-cli-ghpages` package.
 
 [View Workflow](/github-workflows/angular-deploy.md)
+
+## External Integrations
+
+Quick documentation for external integrations.
+
+[View Notes](/github-workflows/external.md)
