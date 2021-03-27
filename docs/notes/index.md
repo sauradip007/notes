@@ -37,3 +37,9 @@ The standard configuration I use for the `npm` package `winston`, a helpful logg
 The standard configuration for the Sentry.io logging service, for either a Node.js and TypeScript project, or for an Angular app.
 
 [View Notes](notes/sentry.md)
+
+## Semantic Versioning
+
+A brief writeup on my semantic versioning process for `package.json` projects.
+
+[View notes](notes/sem-ver.md)
