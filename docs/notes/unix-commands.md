@@ -12,7 +12,7 @@ These are the more common commands I use when working with Ubuntu.
 - `screen -d -r [number]` - detach and resume the screen (use this to access that node process again after killing ssh)
 - `ctrl`+`a`+`d` - exit screen view and return to primary terminal
 - `screen -ls` - list current screens (don't do this inside the screen :P)
-- `screen -X -S [number] quit` - kill one of those screens
+- `screen -X -S [number] quit` - kill one of those screens (`X` sends the command to the screen, `S` declares the screen session to send it to.)
 
 ## SCP
 
@@ -39,7 +39,13 @@ These are the more common commands I use when working with Ubuntu.
 - `cp [old path] [new path]` - copy file from old path to new path. Need to move folder? Use `-r` flag.
 - `mv [old path] [new path]` - move file/folder from old path to new path
 
+### Disk Usage
+
+- `du -sh ./**` - Creates a `h`uman readable printout of `s`ummarized directory sizes within the current working directory. Use this for sizes over `ls` as `ls` caps at 4KB.
+
 ## Other
 
 - `ps aux` - `ps` lists all of the processes, the `aux` flag makes a readable format. When a node process gets "stuck", use this to list them.
 - `kill <pid>` - Kill the process with the `PID` from the above command.
+- `su` - Switch to super user.
+- `su <username>` - Switch to `username` user.
