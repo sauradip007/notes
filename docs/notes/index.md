@@ -43,3 +43,9 @@ The standard configuration for the Sentry.io logging service, for either a Node.
 A brief writeup on my semantic versioning process for `package.json` projects.
 
 [View notes](notes/sem-ver.md)
+
+## WSL Partition Cleanup
+
+Steps for cleaning up the memory allocation for your WSL instance.
+
+[View notes](notes/compact-disk.md)
