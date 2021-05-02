@@ -21,4 +21,20 @@ You will need to manually enable PR comments and PR status updates. You will als
 
 ## Renovate
 
-This is a new integration I'm exploring, to replace dependabot. More information will come if I like it.
+Renovate is a dependency management tool that keeps your packages up to date. As an external GitHub Application, it works auto-magically on your repositories (provided you have given it access). When a new and supported project is detected, Renovate will start by creating a PR to add the configuration file.
+
+If you want to do this manually, the configuration file is `renovate.json` and goes in the root directory of your project. The default value is:
+
+```json
+{
+  "extends": [
+    "config:base"
+  ]
+}
+```
+
+This loads the standard Renovate configuration, which has worked fine for my needs. 
+
+Once this file is in place (either manually, or through a PR merge), Renovate will pin your dependencies and begin opening update PRs.
+
+The advantage of Renovate is that it will attempt to update a monorepo dependency (such as Angular) all at once - sometimes, however, this process fails. At this point, I usually create a branch and update the monorepo manually.
