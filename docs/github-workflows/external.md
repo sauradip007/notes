@@ -27,13 +27,11 @@ If you want to do this manually, the configuration file is `renovate.json` and g
 
 ```json
 {
-  "extends": [
-    "config:base"
-  ]
+  "extends": ["config:base"]
 }
 ```
 
-This loads the standard Renovate configuration, which has worked fine for my needs. 
+This loads the standard Renovate configuration, which has worked fine for my needs.
 
 Once this file is in place (either manually, or through a PR merge), Renovate will pin your dependencies and begin opening update PRs.
 
