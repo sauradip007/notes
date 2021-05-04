@@ -6,7 +6,7 @@ However, what if the reviewer does not create a suggestion, but still provides c
 
 ## Getting the `git` email
 
-In order to attach credit to their GitHub account, you will need their name and email address. To obtain this, find a commit they have made on the repository and view the commit. You should see a URL similar to `https://github.com/nhcarrigan/code-snippets/commit/27c108fa54d5fdca9a76d0721a9808b7f1c77f3f`. 
+In order to attach credit to their GitHub account, you will need their name and email address. To obtain this, find a commit they have made on the repository and view the commit. You should see a URL similar to `https://github.com/nhcarrigan/code-snippets/commit/27c108fa54d5fdca9a76d0721a9808b7f1c77f3f`.
 
 Edit that URL to add `.patch` at the end, like so: `https://github.com/nhcarrigan/code-snippets/commit/27c108fa54d5fdca9a76d0721a9808b7f1c77f3f.patch`. Now you should see the raw commit data. The information you are looking for is at the top:
 
