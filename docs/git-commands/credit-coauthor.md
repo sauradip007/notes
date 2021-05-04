@@ -10,7 +10,7 @@ In order to attach credit to their GitHub account, you will need their name and 
 
 Edit that URL to add `.patch` at the end, like so: `https://github.com/nhcarrigan/code-snippets/commit/27c108fa54d5fdca9a76d0721a9808b7f1c77f3f.patch`. Now you should see the raw commit data. The information you are looking for is at the top:
 
-![Raw commit data](/img/commit-data.png)
+![Raw commit data](../img/commit-data.png)
 
 The information you need is in the `from` field.
 
