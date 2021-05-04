@@ -25,3 +25,9 @@ This script will bring your forked repository up to date with the `main` branch 
 This script will rebase a branch against `main`, and offer the option to squash any commits on that branch into one.
 
 [View Code](git-commands/rebase-branch.md)
+
+## Credit a Co-Author
+
+Instructions for attaching a co-author to your commit to provide attribution.
+
+[View Notes](git-commands/credit-coauthor.md)
