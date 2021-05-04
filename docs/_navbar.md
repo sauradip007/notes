@@ -10,6 +10,8 @@ _Version 1.2.0_
   - [Clean Files](/git-commands/clean-files.md)
   - [Update Fork](/git-commands/update-fork.md)
   - [Rebase Branch](/git-commands/rebase-branch.md)
+  - [Move Commits](/git-commands/move-commits.md)
+  - [Credit Co-Author](git-commands/credit-coauthor.md)
 - [Notes](/notes/index.md)
   - [DigitalOcean Droplet](/notes/do-droplet-setup.md)
   - [GitHub Markdown Notices](/notes/github-markdown-notices.md)
