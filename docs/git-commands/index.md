@@ -26,6 +26,12 @@ This script will rebase a branch against `main`, and offer the option to squash 
 
 [View Code](git-commands/rebase-branch.md)
 
+## Move a Commit
+
+This script will move your commit(s) from `main` to a new branch if you've accidentally committed to the wrong branch.
+
+[View Code](git-commands/move-commit.md)
+
 ## Credit a Co-Author
 
 Instructions for attaching a co-author to your commit to provide attribution.
