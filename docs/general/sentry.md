@@ -48,7 +48,7 @@ export const errorHandler = (context: string, error: Error): void => {
 };
 ```
 
-Note that the `logHandler` comes from our [Winston configuration](/notes/winston.md). These two tools pair very well together. If you aren't using winston, you can replace the `logHandler` with a standard `console.log`.
+Note that the `logHandler` comes from our [Winston configuration](/general/winston.md). These two tools pair very well together. If you aren't using winston, you can replace the `logHandler` with a standard `console.log`.
 
 ## Angular Configuration
 

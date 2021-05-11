@@ -1,10 +1,10 @@
-# Code Snippets
+# Notes
 
 A repository and website to contain various notes, code snippets, and other helpful things I've collected.
 
 ## Live Version
 
-This page is currently deployed. [View the live website.](https://www.nhcarrigan.com/code-snippets)
+This page is currently deployed. [View the live website.](https://www.nhcarrigan.com/notes)
 
 ## Feedback and Bugs
 

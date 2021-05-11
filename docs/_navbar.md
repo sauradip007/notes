@@ -1,6 +1,6 @@
 # nhcarrigan's notes
 
-_Version 1.2.0_
+_Version 1.5.0_
 
 ## Useful Information for Everyone
 
@@ -12,15 +12,15 @@ _Version 1.2.0_
   - [Rebase Branch](/git-commands/rebase-branch.md)
   - [Move Commits](/git-commands/move-commit.md)
   - [Credit Co-Author](git-commands/credit-coauthor.md)
-- [Notes](/notes/index.md)
-  - [DigitalOcean Droplet](/notes/do-droplet-setup.md)
-  - [GitHub Markdown Notices](/notes/github-markdown-notices.md)
-  - [UNIX commands](/notes/unix-commands.md)
-  - [LetsEncrypt](/notes/lets-encrypt.md)
-  - [Winston](/notes/winston.md)
-  - [Sentry](/notes/sentry.md)
-  - [Semantic Versioning](/notes/sem-ver.md)
-  - [WSL Partition Cleanup](/notes/compact-disk.md)
+- [General Notes](/general/index.md)
+  - [DigitalOcean Droplet](/general/do-droplet-setup.md)
+  - [GitHub Markdown Notices](/general/github-markdown-notices.md)
+  - [UNIX commands](/general/unix-commands.md)
+  - [LetsEncrypt](/general/lets-encrypt.md)
+  - [Winston](/general/winston.md)
+  - [Sentry](/general/sentry.md)
+  - [Semantic Versioning](/general/sem-ver.md)
+  - [WSL Partition Cleanup](/general/compact-disk.md)
 - [GitHub Workflows](/github-workflows/index.md)
   - [Dependabot Config](/github-workflows/dependabot-config.md)
   - [CodeQL Scanning (TypeScript/Node)](/github-workflows/codeql-ts-node.md)
