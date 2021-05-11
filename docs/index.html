@@ -56,4 +56,21 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-yaml.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-json.min.js"></script>
   <script src="https://unpkg.com/docsify-copy-code@2"></script>
+  <script
+    src="https://browser.sentry-cdn.com/6.3.6/bundle.min.js"
+    integrity="sha384-Wh1kaX6+TxjSQdRRE+XUoIsEh5Cj8LgB6Wjbg/1/kTB3aG7q6ORaKSe5VfThKhcj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://browser.sentry-cdn.com/6.3.6/bundle.tracing.min.js"
+    integrity="sha384-i2Yvbs5RFObbcbRhpGsmI2wLv+I4jxpEET1WzR/KWxLdwZMtP8E1M0PROnrwe2gF"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    Sentry.init({
+      dsn: "https://de1fdfb3a01a46f5b15e593827a5d08e@o485764.ingest.sentry.io/5758209",
+      integrations: [new Sentry.Integrations.BrowserTracing()],
+      tracesSampleRate: 1.0,
+    });
+  </script>
 </html>
