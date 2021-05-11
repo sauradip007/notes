@@ -1,4 +1,4 @@
-# Code Snippets
+# Notes
 
 Some bits of code that I need on occasion, saved here for ease of access.
 
@@ -12,9 +12,9 @@ These sections contain information that is likely to be useful to any developer.
 
 Helpful commands for the `git` CLI.
 
-### Notes
+### General Information
 
-Various random notes I use.
+Various random information I use.
 
 ### GitHub Workflows
 
