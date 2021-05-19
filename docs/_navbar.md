@@ -1,8 +1,8 @@
-# nhcarrigan's notes
+# [nhcarrigan's notes](/)
 
-_Version 1.5.0_
+_Version 1.6.1_
 
-## Useful Information for Everyone
+## [Useful Information for Everyone](/#useful-information-for-everyone)
 
 - [Home](/index.md)
 - [`git` Commands](/git-commands/index.md)
@@ -51,7 +51,7 @@ _Version 1.5.0_
 
 ---
 
-## Useful Information for nhcarrigan
+## [Useful Information for nhcarrigan](/#useful-information-for-nhcarrigan)
 
 - [New System Setup](/new-setup/index.md)
   - [Installations](/new-setup/installs.md)
@@ -60,7 +60,7 @@ _Version 1.5.0_
 
 ---
 
-## Other Stuff
+## [Other Stuff](/#other-stuff)
 
 - [Funny Codes](/funny-codes/index.md)
   - [Hello World](/funny-codes/hello-world.md)
