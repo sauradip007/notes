@@ -49,3 +49,4 @@ These are the more common commands I use when working with Ubuntu.
 - `kill <pid>` - Kill the process with the `PID` from the above command.
 - `su` - Switch to super user.
 - `su <username>` - Switch to `username` user.
+- `netstat -tulpn` - Shows current ports in use. `t` shows TCP ports, `u` shows UDP ports, `l` shows ports that are listening, `p` shows the PID (usefull to `kill`), and `n` removes the name.
