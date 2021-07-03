@@ -1,6 +1,6 @@
 # NGINX Configuration
 
-I migrated domain registrar from GoDaddy to Cloudflare. One of the features Cloudflare offers is DNS proxying - which is great, but seems to break when using non-standard ports. 
+I migrated domain registrar from GoDaddy to Cloudflare. One of the features Cloudflare offers is DNS proxying - which is great, but seems to break when using non-standard ports.
 
 Since my development VPS runs applications on non-standard ports, I needed a way around this. So I decided to play with NGINX a bit.
 
@@ -38,6 +38,33 @@ server {
 Replace your `subdomain.domain.tld` with the actual domain you want to redirect (i.e `battlesnake.nhcarrigan.com`). Replace the `port` with the port your desired application is running on (mine runs on 4000). Make sure that you don't miss a `;`.
 
 You can copy and reuse this template multiple times in the file, for each subdomain and app you need to connect. Note that if you have an app running on port 80 directly NGINX won't start.
+
+## Configuring SSL
+
+Assuming you have set up a [Lets Encrypt Certificate](/general/lets-encrypt.md), you'll need to configure NGINX for the SSL routes too.
+
+You can follow the same template, with a bit of a modification:
+
+```txt
+server {
+    listen 443 ssl;
+    server_name subdomain.domain.tld;
+    ssl_certificate /etc/letsencrypt/live/subdomain.domain.tld/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/subdomain.domain.tld/privkey.pem;
+
+    location / {
+        proxy_set_header Host $host;
+        proxy_pass https://127.0.0.1:port;
+        proxy_redirect off;
+    }
+}
+```
+
+This will tell NGINX where to find your SSL certificate, and allow it to redirect the HTTP requests accordingly.
+
+## Validating Config
+
+Before running the NGINX service, you can use `nginx -t` to test that your configuration is valid. This can help catch errors before you try to start the service again.
 
 ## Running NGINX
 
