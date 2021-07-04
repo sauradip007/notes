@@ -68,6 +68,10 @@ pm2 start 'npm start' --name 'BeccaLyria'
 
 ## Maintaining Your Applications
 
+On occasion you will need to perform maintenance on your droplet. You will want to SSH into your droplet, then run `reboot` to restart the system. This will kick you off the SSH connection, and you will not be able to reconnect until the reboot is complete.
+
+Once this is done, you can restart your `pm2` process with `pm2 resurrect`.
+
 A few helpful `pm2` commands:
 
 - `pm2 ls`: Lists all `pm2` processes, including helpful information such as the status (running or stopped), name, PID, and number of times it has been restarted.
