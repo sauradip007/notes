@@ -1,6 +1,6 @@
 # [nhcarrigan's notes](/)
 
-_Version 1.8.0_
+_Version 1.9.0_
 
 ## [Useful Information for Everyone](/#useful-information-for-everyone)
 
