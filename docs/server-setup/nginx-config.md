@@ -17,7 +17,7 @@ sudo apt-get install nginx
 The configuration files go in `/etc/nginx/conf.d/`. Create a `.conf` file with a friendly name, such as `server.conf`, and edit it with your editor of choice (I use nano):
 
 ```bash
-nano /etc/nginx/conf.d/server.conf
+sudo nano /etc/nginx/conf.d/server.conf
 ```
 
 Then, follow this template for setting up the internal proxying:
@@ -64,7 +64,7 @@ This will tell NGINX where to find your SSL certificate, and allow it to redirec
 
 ## Validating Config
 
-Before running the NGINX service, you can use `nginx -t` to test that your configuration is valid. This can help catch errors before you try to start the service again.
+Before running the NGINX service, you can use `sudo nginx -t` to test that your configuration is valid. This can help catch errors before you try to start the service again.
 
 ## Running NGINX
 

@@ -5,6 +5,23 @@ These are the instructions for setting up a LetsEncrypt certificate for a Node.j
 > [!NOTE]
 > This process requires the use of `snap`. If you are running on WSL2, `snap` support is limited and you can try installing with `sudo apt-get install certbot` instead.
 
+## Grant Privileges
+
+For non-root users, you need permissions to modify the directory where certificates are saved.
+
+```bash
+sudo chmod -R a+rwx /etc/letsencrypt
+```
+
+You may need to create the directory first.
+
+```bash
+mkdir /etc/letsencrypt
+```
+
+> [!NOTE]
+> For security, it is best to limit this command to your `letsencrypt` directory and not the entire `etc` directory.
+
 ## Install Certbot
 
 Certbot is a tool to generate LetsEncrypt certificates. Run this command to install Certbot.
