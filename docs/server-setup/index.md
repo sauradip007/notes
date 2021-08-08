@@ -45,3 +45,9 @@ Keep your server protected against unauthorised traffic.
 Using PM2, keep your projects running 24/7 (You will need Node for this).
 
 [View Steps](server-setup/run-project.md)
+
+## Server Maintenance
+
+Perform weekly maintenance to keep your servers bright and chipper.
+
+[View Steps](server-setup/maintenance.md)
