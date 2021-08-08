@@ -20,6 +20,7 @@ _Version 1.9.0_
   - [Clone your Repository](server-setup/clone-repository.md)
   - [Enable Firewall](server-setup/firewall.md)
   - [Run your Projects](server-setup/run-project.md)
+  - [Server Maintenance](server-setup/maintenance.md)
 - [General Notes](/general/index.md)
   - [GitHub Markdown Notices](/general/github-markdown-notices.md)
   - [UNIX commands](/general/unix-commands.md)
