@@ -51,3 +51,9 @@ Using PM2, keep your projects running 24/7 (You will need Node for this).
 Perform weekly maintenance to keep your servers bright and chipper.
 
 [View Steps](server-setup/maintenance.md)
+
+## SSH Alias
+
+Configure an alias for your SSH connection to make your life easier.
+
+[View Steps](server-setup/set-alias.md)
