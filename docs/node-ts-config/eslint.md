@@ -39,7 +39,8 @@ This is my configuration for the ESLint plugin. This goes in a `.eslintrc.json` 
           "MethodDefinition": true
         }
       }
-    ]
+    ],
+    "jsdoc/require-description-complete-sentence": "error"
   }
 }
 ```
