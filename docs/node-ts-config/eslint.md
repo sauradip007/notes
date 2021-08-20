@@ -11,21 +11,36 @@ This is my configuration for the ESLint plugin. This goes in a `.eslintrc.json` 
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "plugin:jsdoc/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": 11,
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint"],
+  "plugins": ["@typescript-eslint", "jsdoc"],
   "rules": {
     "linebreak-style": ["error", "unix"],
     "quotes": ["error", "double", { "allowTemplateLiterals": true }],
     "semi": ["error", "always"],
     "prefer-const": "error",
     "eqeqeq": ["error", "always"],
-    "curly": ["error"]
+    "curly": ["error"],
+    "jsdoc/require-jsdoc": [
+      "error",
+      {
+        "require": {
+          "ArrowFunctionExpression": true,
+          "ClassDeclaration": true,
+          "ClassExpression": true,
+          "FunctionDeclaration": true,
+          "FunctionExpression": true,
+          "MethodDefinition": true
+        }
+      }
+    ],
+    "jsdoc/require-description-complete-sentence": "error"
   }
 }
 ```
