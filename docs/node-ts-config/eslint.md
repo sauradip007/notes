@@ -52,10 +52,29 @@ This is my configuration for the ESLint plugin. This goes in a `.eslintrc.json` 
     "import/first": "error",
     "import/exports-last": "error",
     "import/newline-after-import": "error",
-    "import/order": "error"
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          "parent",
+          "sibling",
+          "index",
+          "object",
+          "type",
+          "unknown"
+        ],
+        "newlines-between": "always",
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        }
+      }
+    ]
   }
 }
-
 ```
 
 Most of the settings are required to make ESLint work correctly with Prettier and TypeScript. The rules can be modified, however.
