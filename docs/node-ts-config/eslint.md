@@ -12,14 +12,16 @@ This is my configuration for the ESLint plugin. This goes in a `.eslintrc.json` 
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
-    "plugin:jsdoc/recommended"
+    "plugin:jsdoc/recommended",
+    "plugin:import/recommended",
+    "plugin:import/typescript"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": 11,
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint", "jsdoc"],
+  "plugins": ["@typescript-eslint", "jsdoc", "import"],
   "rules": {
     "linebreak-style": ["error", "unix"],
     "quotes": ["error", "double", { "allowTemplateLiterals": true }],
@@ -27,6 +29,12 @@ This is my configuration for the ESLint plugin. This goes in a `.eslintrc.json` 
     "prefer-const": "error",
     "eqeqeq": ["error", "always"],
     "curly": ["error"],
+    "require-atomic-updates": ["error"],
+    "no-var": ["error"],
+    "camelcase": ["error"],
+    "init-declarations": ["error", "always"],
+    "require-await": ["error"],
+    "no-param-reassign": ["error"],
     "jsdoc/require-jsdoc": [
       "error",
       {
@@ -40,9 +48,14 @@ This is my configuration for the ESLint plugin. This goes in a `.eslintrc.json` 
         }
       }
     ],
-    "jsdoc/require-description-complete-sentence": "error"
+    "jsdoc/require-description-complete-sentence": "error",
+    "import/first": "error",
+    "import/exports-last": "error",
+    "import/newline-after-import": "error",
+    "import/order": "error"
   }
 }
+
 ```
 
 Most of the settings are required to make ESLint work correctly with Prettier and TypeScript. The rules can be modified, however.
