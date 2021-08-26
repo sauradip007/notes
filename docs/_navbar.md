@@ -54,7 +54,6 @@ _Version 1.9.0_
   - [TypeScript Configuration](/node-ts-config/tsconfig.md)
   - [ESLint Configuration](/node-ts-config/eslint.md)
   - [Prettier Configuration](/node-ts-config/prettier.md)
-  - [Husky Configuration](/node-ts-config/husky.md)
   - [Git Ignore](/node-ts-config/gitignore.md)
 
 ---
