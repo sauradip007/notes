@@ -45,7 +45,8 @@ This is my configuration for the ESLint plugin. This goes in a `.eslintrc.json` 
           "FunctionDeclaration": true,
           "FunctionExpression": true,
           "MethodDefinition": true
-        }
+        },
+        "publicOnly": true
       }
     ],
     "jsdoc/require-description-complete-sentence": "error",
