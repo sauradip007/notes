@@ -42,7 +42,7 @@ Finally, configure your `angular.json` settings to use the CLI tool (this goes n
   "options": {
     "baseHref": "https://www.nhcarrigan.com",
     "cname": "www.nhcarrigan.com",
-    "name": "Nicholas Carrigan",
+    "name": "Naomi Carrigan",
     "email": "nhcarrigan@gmail.com"
 }
 ```

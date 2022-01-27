@@ -34,7 +34,7 @@ Retype new password:
 passwd: password updated successfully
 Changing the user information for nhcarrigan
 Enter the new value, or press ENTER for the default
-        Full Name []: Nicholas Carrigan
+        Full Name []: Naomi Carrigan
         Room Number []:
         Work Phone []:
         Home Phone []:

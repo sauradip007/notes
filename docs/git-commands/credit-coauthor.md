@@ -27,7 +27,7 @@ Co-authored-by: Name <email>
 Replace the placeholders with the information in your `from` field from the `.patch` URL above:
 
 ```txt
-Co-authored-by: Nicholas Carrigan <nhcarrigan@gmail.com>
+Co-authored-by: Naomi Carrigan <nhcarrigan@gmail.com>
 ```
 
 Now when you push the commit up to your remote branch, you should see that the other user has also been given credit for that commit!
